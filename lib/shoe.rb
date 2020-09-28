@@ -1,6 +1,6 @@
 # Make your shoe class here!
 class Shoe
-  attr_accessor :author, :page_count, :genre
+  attr_accessor :author, :page_count, :genre, :brand
   attr_reader :title
   
   def initialize(title)
@@ -10,6 +10,8 @@ class Shoe
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
+  
+  
   
   
 end
